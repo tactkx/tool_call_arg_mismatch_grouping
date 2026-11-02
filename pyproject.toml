@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "tactkx-tts_jd025"
+name = "tactkx-tool_call_arg_mismatch_grouping"
 version = "0.1.0"
 description = "按结构键把条目聚类，标出语音合成工程师·工具调用的参数错配上的同组项与各组的代表样本"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://tactkx.github.io"
-Repository = "https://github.com/tactkx/tts_jd025"
-Issues = "https://github.com/tactkx/tts_jd025/issues"
+Repository = "https://github.com/tactkx/tool_call_arg_mismatch_grouping"
+Issues = "https://github.com/tactkx/tool_call_arg_mismatch_grouping/issues"
 
 [project.scripts]
-tts_jd025 = "tts_jd025:main"
+tool_call_arg_mismatch_grouping = "tool_call_arg_mismatch_grouping:main"
 
 [tool.setuptools]
-py-modules = ["tts_jd025"]
+py-modules = ["tool_call_arg_mismatch_grouping"]
